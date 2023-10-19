@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T13:05:51.723Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" version="22.0.5" etag="i0I1IDA5uPZAWTwc2Jl6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T13:52:36.340Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="cngDhbmHNLXm4tvHPxak" version="22.0.5" type="github">
   <diagram name="Page-1" id="M6TXWpxXDyJWT_5660ZP">
-    <mxGraphModel>
+    <mxGraphModel dx="3380" dy="1443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xalU6e3X7Ioin_3ak_17-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xalU6e3X7Ioin_3ak_17-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-1" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Local Machine&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_Wireless.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="157.01" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Jenkins Build server&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;jenkins-snaptv @ 137.133.125.81&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="345" y="360" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Cucumber dev server&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;@ 137.133.74.240&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="439.5" as="sourcePoint" />
+            <mxPoint x="610" y="439.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-7" value="&lt;div align=&quot;left&quot;&gt;All the development happens&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;at the local machine &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Steps in Git&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;---------------&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Checkout the correct branch&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Edit the codes as per need&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.&amp;nbsp; Commit the changes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4. push the branch to jenkins &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-20.000000000000004" y="590" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-8" value="&lt;div align=&quot;left&quot;&gt;In jenkins, assuming we are in&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;correct folder&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Steps in Git&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;---------------&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Checkout the correct &quot;hash&quot; NOT&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; the whole branch &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Build the project&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Move the package file to cucumber&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; using scp (ssh copy) &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="595" width="290" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xalU6e3X7Ioin_3ak_17-9" value="Run the package ;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="600" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
